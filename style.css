@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box
+}
+
+body{
+  margin:0px;
+  padding: 0px;
+  font-value:poppins;
+}
+
+#MAIN{
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: white;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.03);
+  }
+
+.logo img{
+  position: fixed;
+  height:60px;
+  border-radius: 40px;
+  top: 10px;
+}
+
+.MENU{
+  list-style: none;
+  display: flex;
+}
+
+.MENU a{
+  height:40px ;
+  line-height: 43px;
+  margin: 1px;
+  padding: 1px 22px;
+  display: flex;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color:gray;
+}
+
+a{
+  text-decoration: none;
+}
+.HEY{
+  color:#39bfbd;
+  font-weight: 500;
+  font-size: 1.3em;
+  position: relative; 
+  border-bottom: 2px #39bfbd;
+  top:28px;
+}
+
+.IMAGE {
+  width: 500px;
+  height:450px;
+}
+
+.IMAGE img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+
+.CONTENT{
+  display: flex;
+  width:92%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left:50%;
+  right:50%;
+  transform: translate(-50%,-50%);
+}
+
+.MAINTEXT{
+  width:500px;
+}
+
+.MAINTEXT h1{
+  font-size: 3.5em;
+  color:#1c3548;
+  margin:0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.MAINTEXT p{
+  color:grey;
+}
+
+.RESUMEBUTTON{
+  width:190px;
+  height:44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color: #1db096;
+  border-radius:20px;
+}
+
+.RESUMEBUTTON:hover{
+  background-color: #23cdaf;
+  transition:all ease 0.2s;
+}
+
+.MENU li a:hover{
+  background-color: #23cdaf;
+  color:white;
+  box-shadow: 5px 10px 30px rgba( 24,139,119,0.2);
+}
